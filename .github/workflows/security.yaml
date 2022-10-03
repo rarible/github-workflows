@@ -1,0 +1,6 @@
+name: security
+on: [pull_request]
+
+jobs:
+  security:
+    uses: rarible/infra/.github/workflows/security.yaml@feat/reusable_workflow
